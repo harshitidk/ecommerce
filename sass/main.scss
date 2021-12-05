@@ -19,6 +19,11 @@ body
     color: black;
 }
 
+.top
+{
+    background-color: rgb(252, 218, 224);
+}
+
 header
 {
     display: flex;
@@ -40,16 +45,17 @@ header
     transition: all 0.3s ease 0s;
 }
 
-.nav li:hover
+.nav li:hover , .nav li.active
 {
     background-color: black;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 .head-icon img:hover
 {
-    height: 35px;
+    cursor: pointer;
 }
 
 .head-img
@@ -67,6 +73,7 @@ header
     width: 100%;
     position: relative;
     height: 600px;
+    display: flex;
 }
 
 .main-dis1
@@ -110,8 +117,22 @@ header
     transition: all 0.3s ease 0s;
 }
 
-.main-dis1-content button:hover
+.main-dis1-content button:hover , .main-dis1-content button:visited
 {
     background-color: black;
     color: white;
+    cursor: pointer;
 }
+
+.main-dis2
+{
+    width: 50%;
+    height: 600px;
+}
+
+.main-dis2 img
+{
+    padding-top: 50px;
+    height: 600px;
+}
+
