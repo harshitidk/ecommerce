@@ -1,0 +1,117 @@
+@import "variable";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&display=swap');
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    color: black;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    position: relative;
+}
+
+.nav
+{
+    list-style-type: none;
+}
+
+.nav li 
+{
+    display: inline-block;
+    padding: 0px 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav li:hover
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.head-icon img:hover
+{
+    height: 35px;
+}
+
+.head-img
+{
+    margin-right: auto;
+}
+
+.list-item5
+{
+    margin-right: 15px;
+}
+
+.main-dis
+{
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+.main-dis1
+{
+    width: 50%;
+    height: 600px;
+    text-align: left;
+}
+
+.main-dis1-content
+{
+    padding-left: 20%;
+    padding-top: 200px;
+}
+
+.main-dis1-content h1
+{
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+}
+
+.main-dis1-content p
+{
+    margin: 30px 0px;
+    line-height: 1.5;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: .3px;
+}
+
+.main-dis1-content button
+{
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+    background-color: #ff2c28;
+    color: white;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+.main-dis1-content button:hover
+{
+    background-color: black;
+    color: white;
+}
