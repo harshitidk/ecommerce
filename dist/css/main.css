@@ -15,7 +15,9 @@ body {
 }
 
 .top {
-  background-color: #fcdae0;
+  background-color: #fad0d7;
+  width: 100%;
+  position: relative;
 }
 
 header {
@@ -29,7 +31,6 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 10%;
-  position: relative;
 }
 
 .nav {
@@ -72,6 +73,7 @@ header {
 }
 
 .main-dis1 {
+  position: relative;
   width: 50%;
   height: 600px;
   text-align: left;
@@ -86,6 +88,12 @@ header {
   font-size: 45px;
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.main-dis1-content h1:hover {
+  text-shadow: 2px 1px 1px black;
 }
 
 .main-dis1-content p {
@@ -94,6 +102,7 @@ header {
   font-size: 15px;
   word-spacing: 1px;
   letter-spacing: .3px;
+  color: #575757;
 }
 
 .main-dis1-content button {
@@ -117,6 +126,7 @@ header {
 }
 
 .main-dis2 {
+  position: relative;
   width: 50%;
   height: 600px;
 }
@@ -124,5 +134,210 @@ header {
 .main-dis2 img {
   padding-top: 50px;
   height: 600px;
+}
+
+.top2 {
+  height: 150em;
+  background-color: white;
+}
+
+.gallery1 {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+}
+
+.gallery1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.gallery1 ul li {
+  list-style-type: none;
+  padding-top: 60px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.gallery1 ul li:hover {
+  cursor: pointer;
+  padding-top: 40px;
+}
+
+.heading-gallery1 {
+  text-align: center;
+  margin-top: 70px;
+  height: 100px;
+  width: 100%;
+}
+
+.heading-gallery1 h2 {
+  padding: 0px;
+  color: #575757;
+  font-size: 20px;
+  font-weight: 100%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.heading-gallery1 h2:hover {
+  letter-spacing: 2px;
+  word-spacing: 1px;
+}
+
+.gallery2 {
+  height: 500px;
+  background-color: white;
+}
+
+.ul-gallery2 {
+  margin-top: 65px;
+}
+
+.ul-gallery2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 200px;
+}
+
+.ul-gallery2 ul li {
+  list-style-type: none;
+}
+
+.ul-head p {
+  color: #3b3b3b;
+  font-size: 13px;
+  word-spacing: 1px;
+  letter-spacing: .25px;
+  font-weight: 500;
+  padding: 5px 0px;
+}
+
+.ul-price p {
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ul-img {
+  padding-top: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.ul-img:hover {
+  padding-top: 0px;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+.heading-gallery2 h2 {
+  color: #575757;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 0px;
+  margin-top: 100px;
+}
+
+.heading-gallery2 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
+.heading-gallery2 h2:hover {
+  letter-spacing: 2px;
+  word-spacing: 1px;
+}
+
+.gal3-main {
+  margin-top: 120px;
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.gal3-main1, .gal3-main2 {
+  background-color: #fcd9df;
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.gal3-main1-img {
+  padding-left: 40%;
+  padding-top: 10%;
+  position: relative;
+}
+
+.gal3-main2-con p {
+  color: #424242;
+  line-height: 1.4;
+  font-size: small;
+  word-spacing: .5px;
+}
+
+.gal3-main2-con button {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #ff2c28;
+  color: white;
+}
+
+.gal3-main2-con {
+  margin-top: 100px;
+}
+
+.gal3-main2-con p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.gal3-main2-con-p1 p {
+  color: #272727;
+  font-size: 15px;
+}
+
+.gal3-main2-con h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.gal3-main2-con button {
+  margin-left: 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.gal3-main2-con button:hover {
+  margin-left: 0px;
+  padding: 10px 40px;
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */
